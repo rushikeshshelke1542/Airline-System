@@ -251,6 +251,7 @@ public class AddAdmin extends javax.swing.JInternalFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -280,6 +281,7 @@ public class AddAdmin extends javax.swing.JInternalFrame {
             
             JOptionPane.showMessageDialog ( null,"Admin Added Successfully");
             
+            this.setVisible(false);
             
             
             
